@@ -1,0 +1,8 @@
+{
+    "blog_name": "Default-blog",
+    "lang": "fr",
+    "index": [
+        "welcome.md"
+    ],
+    "description": "Is the default description of BlogInPy..."
+}

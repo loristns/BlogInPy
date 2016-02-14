@@ -1,0 +1,112 @@
+body {
+	background-color: whitesmoke;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2.5;
+	font-family: "Verdana", "Arial", sans-serif;
+	font-size: 1.5625em;
+	color: green;
+
+}
+
+h2, h3, h4 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.blog_title {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+a:link {
+	color: blue;
+	font-family: "Verdana", "Arial", sans-serif;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+	font-family: "Verdana", "Arial", sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	font-family: "Verdana", "Arial", sans-serif;
+	text-decoration: underline;
+}
+
+a:active {
+	color: green;
+	font-family: "Verdana", "Arial", sans-serif;
+	text-decoration: underline;
+}
+
+p {
+	font-family: "Verdana", "Arial", sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+button {
+        background-color: green;
+        border: 2px solid green;
+        color: white;
+        display: inline-block;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25em;
+        cursor: pointer;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+}
+
+button:hover {
+       background-color: white;
+       color: black;
+       -webkit-transition-duration: 0.5s;
+       transition-duration: 0.5s;
+}
+
+button:active {
+       background-color: darkgreen;
+       border-color: darkgreen;
+       color: white;
+}
+
+.box {
+      background-color: white;
+      box-shadow: 10px 10px 40px grey;
+      margin: 20px;
+      padding-bottom: 20px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 100px;
+}
+
+th, td {
+    text-align: left;
+    padding: 2px;
+}
+
+tr {
+    background-color: whitesmoke
+}
+
+th {
+    background-color: green;
+    color: white;
+}
