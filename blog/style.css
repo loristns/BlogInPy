@@ -123,6 +123,11 @@ th, td {
     padding: 2px;
 }
 
+ul {
+    padding-right: 100px;
+    padding-left: 200px;
+}
+
 tr {
     background-color: whitesmoke
 }

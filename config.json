@@ -9,6 +9,9 @@
         "markdown.extensions.meta",
         "markdown.extensions.align",
         "markdown.extensions.tables",
-        "markdown.extensions.video"
+        "markdown.extensions.video",
+        "markdown.extensions.smart_strong",
+        "markdown.extensions.newtab",
+        "markdown.extensions.toc"
     ]
 }
