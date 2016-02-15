@@ -1,5 +1,5 @@
 import json
-import function
+import engine
 
 # Get config data
 config = open("config.json")
@@ -38,15 +38,15 @@ while True:
 
     if action == "1":
         filename = input("  Name of article file : ")
-        print(function.add_article(filename))
+        print(engine.add_article(filename))
 
     elif action == "2":
         filename = input("  Name of article file : ")
-        print(function.delete_article(filename))
+        print(engine.delete_article(filename))
 
     elif action == "3":
         print("Generating blog...")
-        function.generate_blog()
+        engine.generate_blog()
         print("Blog successfully generated !")
 
     elif action == "4":

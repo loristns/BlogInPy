@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="${ emit(lang) }$">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>${ emit(blog_name) }$</title>
+    </head>
+    <body>
+        <h1 class="blog_title">${ emit(blog_name) }$</h1>
+        <br>
+        <h4>${ emit(description) }$</h4>
+        <br>
+        <div class="box">
+            <h1 class="article_title">${ emit(article_title[0]) }$</h1>
+            <p class="author">${ emit(article_author[0]) }$</p>
+            <br>
+            ${ emit(article) }$
+        </div>
+    </body>
+</html>

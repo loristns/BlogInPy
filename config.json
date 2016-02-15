@@ -1,8 +1,14 @@
 {
     "blog_name": "Default-blog",
-    "lang": "fr",
+    "lang": "en",
     "index": [
         "welcome.md"
     ],
-    "description": "Is the default description of BlogInPy..."
+    "description": "Is the default description of BlogInPy...",
+    "md_plugin_list": [
+        "markdown.extensions.meta",
+        "markdown.extensions.align",
+        "markdown.extensions.tables",
+        "markdown.extensions.video"
+    ]
 }

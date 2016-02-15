@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="${ emit(lang) }$">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>${ emit(blog_name) }$</title>
+    </head>
+    <body>
+        <h1 class="blog_title">${ emit(blog_name) }$</h1>
+        <br>
+        <h4>${ emit(description) }$</h4>
+        <br>
+        ${ for article in article_list:
+            emit('<div class="box">')
+            emit('<a class="article_title" href="', article['url'], '">')
+            emit(article['title'][0], '</a>')
+            emit('<p class="author">', article['author'][0], '</p>')
+            emit('<br>')
+            emit(article['content'])
+            emit('</div>')
+            emit('<br>')
+        }$
+    </body>
+</html>

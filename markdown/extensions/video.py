@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#
+# Modified by the_new_sky :
+# VideoExtension.__init__ does not require argument now.
 
 import markdown
 from markdown.util import etree
@@ -6,7 +9,10 @@ from markdown.blockprocessors import BlockProcessor
 import re
 
 class VideoExtension(markdown.Extension):
-    def __init__(self, js_support=False, configs={}):
+    def __init__(self):
+
+        js_support = True
+        configs = {}
         self.config = {
             'dailymotion_width': ['480', 'Width for Dailymotion videos'],
             'dailymotion_height': ['270', 'Height for Dailymotion videos'],
@@ -179,8 +185,8 @@ def flash_object(url, width, height):
     return obj
 
 
-def makeExtension(configs=None):
-    return VideoExtension(configs=configs)
+def makeExtension():
+    return VideoExtension()
 
 
 if __name__ == "__main__":
