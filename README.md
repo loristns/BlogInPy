@@ -18,7 +18,7 @@ BlogInPy is highly customisable, just add some things to templates, change CSS, 
 
 - BlogInPy do essential, no more : create and share post around the world.
 
-- But BlogInPy is expendable : want comment ? Add disqus by copying HTML code in your template !
+- But BlogInPy is expendable : Want comment ? Add disqus by copying HTML code in your template !
 Want math ? Add Mathjax to Python-Markdown extensions and some javascript to template !
 
 - BlogInPy was concepted to by lighweight, portable and powerful. 
