@@ -11,15 +11,17 @@
 
 The smallest static blog generator ever !
 
-BlogInPy help you to interact with everyone freely and fastly. In 60 seconds you can have a static blog on the web.
+BlogInPy help you to interact with everyone freely and fastly. In 60 seconds you can have a static blog running on the web.
 BlogInPy is highly customisable, just add some things to templates, change CSS, add some Python-Markdown extensions and it's ok ! 
 
 ## Why use BlogInPy
 
-BlogInPy do essential, no more : create and share post around the world.
-But BlogInPy is expendable : want comment ? Add disqus by copying HTML code in your template ! Want math ? Add Mathjax to Python-Markdown extensions and some javascript to template !
+- BlogInPy do essential, no more : create and share post around the world.
 
-BlogInPy was concepted to by lighweight, portable and powerful. 
+- But BlogInPy is expendable : want comment ? Add disqus by copying HTML code in your template !
+Want math ? Add Mathjax to Python-Markdown extensions and some javascript to template !
+
+- BlogInPy was concepted to by lighweight, portable and powerful. 
 
 # Installation
 
