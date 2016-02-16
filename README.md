@@ -6,6 +6,8 @@
      |____/|_|\___/ \__, |_____|_| |_|_|    \__, |
                      __/ |                   __/ |
                     |___/                   |___/
+                    
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/3a9da39de6fc49b7ad931ae6426b61cc)](https://www.codacy.com/app/lorisazerty/BlogInPy)
 
 The smallest static blog generator ever !
 
