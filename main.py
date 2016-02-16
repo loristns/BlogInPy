@@ -6,9 +6,6 @@ config = open("config.json")
 config_data = json.loads(config.read())
 config.close()
 
-# Get template
-
-
 print("""
       ____  _             _____       _____
      |  _ \| |           |_   _|     |  __ |
@@ -24,10 +21,10 @@ print("""
     INFO - Article list :
     """)
 
-for article in config_data["index"]: # print each article
-    print("         - %s" %article)
+for article in config_data["index"]:  # Print each article in index
+    print("         - %s" % article)
 
-while True:
+while True:  # Print the menu
     print("\n    ACTION - What do you want to do ?\n")
     print("         1- Add article to index")
     print("         2- Delete article to index")
@@ -36,23 +33,22 @@ while True:
 
     action = input("    YOU >>> ")
 
-    if action == "1":
+    if action == "1":  # Add article
         filename = input("  Name of article file : ")
         print(engine.add_article(filename))
 
-    elif action == "2":
+    elif action == "2":  # Delete article
         filename = input("  Name of article file : ")
         print(engine.delete_article(filename))
 
-    elif action == "3":
+    elif action == "3":  # Generate blog
         print("Generating blog...")
         engine.generate_blog()
         print("Blog successfully generated !")
 
-    elif action == "4":
+    elif action == "4":  # Exit
         print("Bye Bye")
         exit()
 
     else:
         print("Unrecognized command...")
-

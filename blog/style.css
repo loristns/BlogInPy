@@ -73,34 +73,6 @@ p {
     font-style: italic;
 }
 
-button {
-        background-color: green;
-        border: 2px solid green;
-        color: white;
-        display: inline-block;
-        padding: 15px 15px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 1.25em;
-        cursor: pointer;
-        border-radius: 4px;
-        -webkit-transition-duration: 0.5s;
-        transition-duration: 0.5s;
-}
-
-button:hover {
-       background-color: white;
-       color: black;
-       -webkit-transition-duration: 0.5s;
-       transition-duration: 0.5s;
-}
-
-button:active {
-       background-color: darkgreen;
-       border-color: darkgreen;
-       color: white;
-}
-
 .box {
       background-color: white;
       box-shadow: 10px 10px 40px grey;
