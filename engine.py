@@ -156,7 +156,7 @@ def add_article(filename):
         config.setting["index"].insert(0, filename)  # Else insert file on the top of index
 
         new_config = open("config.json", "w")  # And save
-        new_config.write(json.dumps(config.setting["index"], indent=2))
+        new_config.write(json.dumps(config.setting, indent=2))
         new_config.close()
 
         return "File successfully indexed !"
@@ -176,9 +176,8 @@ def delete_article(filename):
         return "File not found in index, cannot delete it."
     else:
         config.setting["index"].pop(config.setting['index'].index(filename))  # Else delete file
-
         new_config = open("config.json", "w")  # And save
-        new_config.write(json.dumps(config.setting['index'], indent=2))
+        new_config.write(json.dumps(config.setting, indent=2))
         new_config.close()
 
         return "File successfully deleted from index !"
@@ -193,7 +192,7 @@ def generate_blog():
 
     for article in config.setting['index']:  # Add article page for all article
         new_article = open("blog/%s.html" % os.path.splitext(os.path.basename(article))[0], 'w')
-        new_article.write(Article(markdown_file=article).render)
+        new_article.write(Article(markdown_file=article).render())
         new_article.close()
 
     new_timeline = open("blog/index.html", 'w')  # Add timeline page
