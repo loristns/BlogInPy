@@ -61,13 +61,13 @@ if __name__ == '__main__':
 
     try:
 
-        if sys.argv[-2] == "-index+":  # Add a command for adding file to index
+        if sys.argv[-2] == "index+":  # Add a command for adding file to index
             print(engine.add_article(sys.argv[-1]))
 
-        elif sys.argv[-2] == "-index-":
+        elif sys.argv[-2] == "index-":
             print(engine.delete_article(sys.argv[-1]))
 
-        elif sys.argv[-1] == "-gen":
+        elif sys.argv[-1] == "gen":
             print("Generating blog...")
             engine.generate_blog()
             print("Blog successfully generated !")

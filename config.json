@@ -1,17 +1,17 @@
 {
-    "blog_name": "Default-blog",
-    "lang": "en",
-    "index": [
-        "welcome.md"
-    ],
-    "description": "Is the default description of BlogInPy...",
-    "md_plugin_list": [
-        "markdown.extensions.meta",
-        "markdown.extensions.align",
-        "markdown.extensions.tables",
-        "markdown.extensions.video",
-        "markdown.extensions.smart_strong",
-        "markdown.extensions.newtab",
-        "markdown.extensions.toc"
-    ]
+  "lang": "en",
+  "index": [
+    "welcome.md"
+  ],
+  "md_plugin_list": [
+    "markdown.extensions.meta",
+    "markdown.extensions.align",
+    "markdown.extensions.tables",
+    "markdown.extensions.video",
+    "markdown.extensions.smart_strong",
+    "markdown.extensions.newtab",
+    "markdown.extensions.toc"
+  ],
+  "description": "Is the default description of BlogInPy...",
+  "blog_name": "Default-blog"
 }
