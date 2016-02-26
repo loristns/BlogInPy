@@ -11,16 +11,16 @@
 
 The smallest static blog generator ever created !
 
-BlogInPy help you to interact with everyone freely and fastly. In 60 seconds you can have a static blog running on the web. BlogInPy is highly customisable, just add some things to templates, change CSS, add some Python-Markdown extensions and it's over !
+BlogInPy help you to interact with everyone freely and fastly. In 60 seconds you can have a static blog running on the web. BlogInPy is highly customisable, just add some things to templates, change CSS, add some Python-Markdown extensions and that's all !
 
 # Why use BlogInPy
 
 - BlogInPy do essential, no more : create and share posts around the world.
 
-- But BlogInPy is extendable : Want comments ? Add Disqus by copying HTML code in your template !
-Want maths ? Add Mathjax to Python-Markdown extensions and some javascript to template !
+- But BlogInPy is extendable : Any comments ? Add Disqus by copying HTML code in your template !
+Want maths support ? Add Mathjax to Python-Markdown extensions and some javascript to template !
 
-- BlogInPy was designed to be lighweight, portable and powerful. 
+- BlogInPy was designed to be lightweight, portable and powerful. 
 
 
 # Installation
@@ -30,7 +30,7 @@ Just clone this repository and look at the documentation.
  
 # Usage
 
-For configuring BlogInPy, open the file `config.json`, it look like that :
+For configuring BlogInPy, open the file `config.json`, it looks like that :
 
 ```json
     {
